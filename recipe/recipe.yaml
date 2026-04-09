@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.8.2"
+  version: "1.9.0"
 
 package:
   name: runpod-python
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/runpod/runpod-${{ version }}.tar.gz
-  sha256: dfc083b40e1d76dea7e3ea2ef7f8ba4eb46a62b161944304029e382a467d7618
+  sha256: 77ba9b45c4b926d88f80988e804d3866b66979f33d07605d616e3f5539028764
 
 build:
   number: 0
@@ -39,6 +39,7 @@ requirements:
     - filelock >=3.0.0
     - paramiko >=3.3.1
     - prettytable >=3.9.0
+    - psutil >=5.9.0
     - py-cpuinfo >=9.0.0
     - inquirerpy ==0.3.4
     - requests >=2.31.0
