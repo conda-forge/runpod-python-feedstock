@@ -34,7 +34,7 @@ requirements:
     - boto3 >=1.26.165
     - click >=8.1.7
     - colorama >=0.2.5,<0.4.7
-    - cryptography <46.0.0
+    - cryptography >=48.0.1
     - fastapi >=0.94.0
     - filelock >=3.0.0
     - paramiko >=3.3.1
