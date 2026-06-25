@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.9.1"
+  version: "1.10.0"
 
 package:
   name: runpod-python
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/runpod/runpod-${{ version }}.tar.gz
-  sha256: 8d2f0c09a2f69754499e64df7d9307837c6f27b9813446d4b918328eff93b8d2
+  sha256: 38d579ab0b288ef115e929493e0ea51c9c76ed17b4e07c4560fb0f08ede1f49f
 
 build:
   number: 0
@@ -34,7 +34,7 @@ requirements:
     - boto3 >=1.26.165
     - click >=8.1.7
     - colorama >=0.2.5,<0.4.7
-    - cryptography <46.0.0
+    - cryptography >=48.0.1
     - fastapi >=0.94.0
     - filelock >=3.0.0
     - paramiko >=3.3.1
