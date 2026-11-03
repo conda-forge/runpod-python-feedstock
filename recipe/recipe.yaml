@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.12.0"
+  version: "2.0.0"
 
 package:
   name: runpod-python
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/runpod/runpod-${{ version }}.tar.gz
-  sha256: 511c6b751221a9890450aa2ddedc0c50d4d64aa3a008aab0d7a23a84792dbb85
+  sha256: 9e4bdbda2267acad5e3ed87947ffcfc6b2baba179144e885db815ceb6dc3de14
 
 build:
   number: 0
@@ -32,22 +32,27 @@ requirements:
     - aiohttp-retry >=2.8.3
     - backoff >=2.2.1
     - boto3 >=1.26.165
+    - certifi >=2026.10.19
     - click >=8.1.7
+    - cloudpickle >=3.1.2
     - colorama >=0.2.5,<0.4.7
-    - cryptography >=48.0.1
+    - cryptography >=50.0.2
     - fastapi >=0.94.0
     - filelock >=3.0.0
-    - paramiko >=3.3.1
+    - inquirerpy ==0.3.4
+    - packaging >=26.3
+    - paramiko >=5.1.0
+    - pathspec >=1.1.1
     - prettytable >=3.9.0
     - psutil >=5.9.0
     - py-cpuinfo >=9.0.0
-    - inquirerpy ==0.3.4
     - requests >=2.31.0
+    - rich >=15.0.0
     - tomli >=2.0.1
     - tomlkit >=0.12.2
     - tqdm-loggable >=0.1.4
     - urllib3 >=1.26.6
-    - watchdog >=3.0.0
+    - watchdog >=6.0.0
 
 tests:
   - script:
