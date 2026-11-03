@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.12.0"
+  version: "2.0.0"
 
 package:
   name: runpod-python
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/runpod/runpod-${{ version }}.tar.gz
-  sha256: 511c6b751221a9890450aa2ddedc0c50d4d64aa3a008aab0d7a23a84792dbb85
+  sha256: 9e4bdbda2267acad5e3ed87947ffcfc6b2baba179144e885db815ceb6dc3de14
 
 build:
   number: 0
