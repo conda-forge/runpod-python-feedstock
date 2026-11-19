@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.2.1"
+  version: "2.3.0"
 
 package:
   name: runpod-python
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/runpod/runpod-${{ version }}.tar.gz
-  sha256: 140b473d040ee8f3286a25e9955efd3a1563c6829af73a2fe658fc4a093540c6
+  sha256: 548aa9b60a92fe51b8c90d2c1b2b744180771dfe78aac8e6dc687c49612a51cf
 
 build:
   number: 0
@@ -31,13 +31,13 @@ requirements:
     - aiohttp >=3.9.3
     - aiohttp-retry >=2.8.3
     - backoff >=2.2.1
-    - boto3 >=1.26.165
-    - certifi >=2026.10.19
-    - click >=8.1.7
+    - boto3 >=1.44.2
+    - certifi >=2026.10.23
+    - click >=8.5.1
     - cloudpickle >=3.1.2
     - colorama >=0.2.5,<0.4.7
     - cryptography >=50.0.2
-    - fastapi >=0.94.0
+    - fastapi >=0.162.5
     - filelock >=3.0.0
     - inquirerpy ==0.3.4
     - packaging >=26.3
